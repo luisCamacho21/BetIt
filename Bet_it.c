@@ -16,7 +16,7 @@ int main()
     printf("\ttwo modes: wild bets and normal bets, where you can decide whether be careful\n");
     printf("\tor be totally careless and risk everything you have (It's funny when it's risky, ain't it?)\n");
     printf("\tBut pay attention that there's a catch. Though you won't lose real money, you will lose credits\n");
-    printf("\tand you need credits to make a bet, if you don't have enough, unfortunely you'll have to recharge.\n\n\n");
+    printf("\tand you need credits to make a bet, if you don't have enough, unfortunately you'll have to recharge.\n\n\n");
     printf("########################################################################################################\n\n");
 
 
