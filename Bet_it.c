@@ -201,7 +201,7 @@ case (3): {
     time_t start_time = time(NULL);
     time_t current_time;
 
-    printf("\nWelcome my dear gambler, you have ran out of credit, ain't you? \n Don't worry, listen to jazz and wait until your tank is filled up. ");
+    printf("\nWelcome my dear gambler, you have run out of credit, ain't you? \n Don't worry, listen to jazz and wait until your tank is filled up. ");
 
     do {
 
