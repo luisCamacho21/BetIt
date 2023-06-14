@@ -42,7 +42,7 @@ do {
         {
             printf("\n\n1. How do credits and recharging work?");
             printf("\n You have a credit score. Which right now is a total of %d.", credit);
-            printf("You need credits scores to make bets. If you don't have any, you'll have to recharge\n recharging is easy, press 3 after finishing the tour and every 15 seconds \n a credit will be added to your balance");
+            printf("You need credits scores to make bets. If you don't have any, you'll have to recharge\n recharging is easy, press 3 after finishing the tour and every 5 seconds \n a credit will be added to your balance");
             printf("\n  Press 1 to continue\n");
             scanf("%d", &choice);
 
@@ -69,10 +69,8 @@ do {
         case(3):
         {
             printf("\n\n3. How do wild bets work?");
-            printf("\n You have three kinds of wild bets");
-            printf("\n 1. Lose half or multiply by a factor of two. You need 10 credits." );
-            printf("\n 1. Lose 75%% or multiply by a factor of four. You need 15 credits.");
-            printf("\n 3. Lose everything or multiply by a factor of eight. You need 25 credits.");
+            printf("\n You can choose to be totally careless and risk all you have, this is the deal:");
+            printf("\n 1. Lose half or multiply by a factor of two. You need 10 credits to make a bet." );
             printf("\n Press 1 to finish the tour.\n");
             scanf("%d", &choice);
 
@@ -122,7 +120,7 @@ if (i>0) {
 
             //Betting mechanism, generator of numbers and testing equals.
 
-                    printf("\nThis is a normal bet. Tell me a number from 1 to 10");
+                    printf("\nThis is a normal bet. Tell me a number from 1 to 10\n");
              scanf("%d", &guessNumber);
              resultNumber = (rand() % 9) +1;
              char butAnd[10];
@@ -164,7 +162,7 @@ if (i>0) {
 
             //Betting mechanism, generator of numbers and testing equals.
 
-                    printf("\nThis is a wild bet. Tell me a number from 1 to 5");
+                    printf("\nThis is a wild bet. Tell me a number from 1 to 5\n");
              scanf("%d", &guessNumber2);
              resultNumber2 = (rand() % 4) +1;
              char butAnd2[10];
