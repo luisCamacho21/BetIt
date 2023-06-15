@@ -23,8 +23,8 @@ int main()
     //TOUR
     int choice;
 
-    printf("\tLet's make a little tour in our very funny features, choose what you want to learn first\n\n");
-    printf("\tThis is the tour\n\n");
+    printf("\tLet's make a little tour in our very funny features.\n\n");
+    printf("\tThis is the tour:\n\n");
     printf("1. How do credits and recharging work?\n");
     printf("2. How do normal bets work?\n");
     printf("3. How do wild bets work?\n");
@@ -70,7 +70,7 @@ do {
         {
             printf("\n\n3. How do wild bets work?");
             printf("\n You can choose to be totally careless and risk all you have, this is the deal:");
-            printf("\n 1. Lose half or multiply by a factor of two. You need 10 credits to make a bet." );
+            printf("\n Lose half or multiply by a factor of four. You need 10 credits to make a wild bet." );
             printf("\n Press 1 to finish the tour.\n");
             scanf("%d", &choice);
 
